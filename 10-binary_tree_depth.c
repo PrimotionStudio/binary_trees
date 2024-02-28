@@ -4,6 +4,7 @@
 /**
  * binary_tree_depth - The calculate the depth of a tree
  * @tree: the tree to be calc-ed
+ * Return: the depth of the tree
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
