@@ -1,5 +1,10 @@
 #include "binary_trees.h"
 
+/**
+ * traverse - a function to traverse the tree
+ * @root: the root of the func
+ * @i: a counter
+ */
 void traverse(const binary_tree_t *root, size_t *i)
 {
 	size_t j = 0, k = 0;
@@ -17,6 +22,10 @@ void traverse(const binary_tree_t *root, size_t *i)
 	}
 }
 
+/**
+ * binary_tree_height - The calculate the height of a tree
+ * @tree: the tree to be calc-ed
+ */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t i = 0;
