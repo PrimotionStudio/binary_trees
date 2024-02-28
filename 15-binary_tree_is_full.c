@@ -17,8 +17,6 @@ void traverse(const binary_tree_t *root, int *i)
 	}
 	traverse(root->left, i);
 	traverse(root->right, i);
-
-	return;
 }
 
 /**
