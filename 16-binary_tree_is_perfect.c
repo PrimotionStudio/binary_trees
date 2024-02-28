@@ -30,6 +30,7 @@ void traverse_h(const binary_tree_t *root, size_t *i)
 void traverse(const binary_tree_t *root, int *i)
 {
 	size_t y = 0, z = 0;
+
 	if (root == NULL)
 		return;
 	if ((root->left != NULL && root->right == NULL) ||
